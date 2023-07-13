@@ -45,8 +45,8 @@ _DISPLAY_LOGO_ = 4>3
 
 -- Q#03
 
-convertRowIndex = undefined
-
+convertRowIndex :: Char -> (Char -> Int) -> Int
+convertRowIndex a toUpper = fromEnum a - 65
 -- Q#04
 
 _INVALID_MOVE_ = undefined
