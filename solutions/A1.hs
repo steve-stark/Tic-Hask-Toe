@@ -27,7 +27,21 @@ _SIZE_ = 3
 
 -- Q#02
 
-_DISPLAY_LOGO_ = undefined
+_DISPLAY_LOGO_ :: Bool
+_DISPLAY_LOGO_ = 4>3
+
+-- *A1> :r 
+-- [1 of 1] Compiling A1               ( solutions/A1.hs, interpreted )
+-- Ok, one module loaded.
+-- *A1> d = _DISPLAY_LOGO_ 
+-- *A1> d
+-- True
+-- *A1> not d
+-- False
+-- *A1> d && not d
+-- False
+-- *A1> d || not d
+-- True
 
 -- Q#03
 
