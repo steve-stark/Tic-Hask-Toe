@@ -6,7 +6,24 @@ import Data.Char (toUpper)
 
 -- Q#01
 
-_SIZE_ = undefined
+_SIZE_ :: Int
+_SIZE_ = 3
+
+-- Prelude> :l A1
+-- [1 of 1] Compiling A1               ( solutions/A1.hs, interpreted )
+-- Ok, one module loaded.
+-- *A1> _SIZE_
+-- 3
+-- *A1> :t _SIZE_
+-- _SIZE_ :: Int
+-- *A1> s = _SIZE_
+-- *A1> s + 1
+-- 4
+-- *A1> s - 1
+-- 2
+-- *A1> s
+-- 3
+
 
 -- Q#02
 
